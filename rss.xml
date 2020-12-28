@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>nicksherefkin.net</title>
-        <link>https://nicksherefkin.net/</link>
+        <link>https://nicksherefkin.github.io/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.74.3 https://gohugo.io/</generator>
         
@@ -21,15 +21,15 @@
             <webMaster>nsherefkin@gmail.com (Nick Sherefkin)</webMaster>
         
         
-        <lastBuildDate>Sun, 27 Dec 2020 22:28:29 -0800</lastBuildDate>
+        <lastBuildDate>Mon, 28 Dec 2020 08:13:17 -0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://nicksherefkin.net/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://nicksherefkin.github.io/rss.xml" />
         
         
             <item>
                 <title></title>
-                <link>https://nicksherefkin.net/posts/post1/</link>
-                <guid isPermaLink="true">https://nicksherefkin.net/posts/post1/</guid>
+                <link>https://nicksherefkin.github.io/posts/post1/</link>
+                <guid isPermaLink="true">https://nicksherefkin.github.io/posts/post1/</guid>
                 <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
                 
                     <author>nsherefkin@gmail.com (Nick Sherefkin)</author>
