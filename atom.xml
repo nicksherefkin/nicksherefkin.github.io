@@ -2,24 +2,24 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">Hugo Theme MemE</title>
+    <title type="text">nicksherefkin.net</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-12-27T12:59:07-08:00</updated>
-    <id>https://nicksherefkin.github.io/</id>
-    <link rel="alternate" type="text/html" href="https://nicksherefkin.github.io/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://nicksherefkin.github.io/atom.xml" />
+    <updated>2020-12-27T22:28:29-08:00</updated>
+    <id>https://nicksherefkin.net/</id>
+    <link rel="alternate" type="text/html" href="https://nicksherefkin.net/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://nicksherefkin.net/atom.xml" />
     <author>
             <name>Nick Sherefkin</name>
-            <uri>https://nicksherefkin.github.io/</uri>
+            <uri>https://nicksherefkin.net/</uri>
             
                 <email>nsherefkin@gmail.com</email>
             </author>
-    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
+    
     <generator uri="https://gohugo.io/" version="0.74.3">Hugo</generator>
         <entry>
             <title type="text"></title>
-            <link rel="alternate" type="text/html" href="https://nicksherefkin.github.io/posts/post1/" />
-            <id>https://nicksherefkin.github.io/posts/post1/</id>
+            <link rel="alternate" type="text/html" href="https://nicksherefkin.net/posts/post1/" />
+            <id>https://nicksherefkin.net/posts/post1/</id>
             <updated>2020-11-05T18:05:15-08:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
@@ -27,7 +27,7 @@
                     <uri>https://io-oi.me/</uri>
                     <email>nsherefkin@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Nothing Blog Wei wu wei is a Taoist phrase meaning &amp;ldquo;do by not doing&amp;rdquo;. I learned about it the summer I read the Tao Te Ching. I was reassembling myself after quitting a job teaching high school geometry. My students had been lovable kids and my coworkers had been supportive peers but I had slowly been turning the job into a gauntlet of challenges I could no longer complete.</summary>
+            <summary type="html">Nothing Blog Wei wu wei is a Taoist phrase meaning &amp;ldquo;do by not doing&amp;rdquo;. I learned about it the summer I read the Tao Te Ching. I was reassembling myself after quitting a job teaching high school geometry. My students had been lovable kids and my coworkers had been supportive peers but I had slowly been turning the job into a gauntlet of challenges I could no longer complete.</summary>
             
                 <content type="html">&lt;h2 id=&#34;nothing-blog&#34;&gt;Nothing Blog&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Wei wu wei&lt;/em&gt; is a Taoist phrase meaning &amp;ldquo;do by not doing&amp;rdquo;. I learned about it the summer I read the Tao Te Ching. I was reassembling myself after quitting a job teaching high school geometry. My students had been lovable kids and my coworkers had been supportive peers but I had slowly been turning the job into a gauntlet of challenges I could no longer complete. I took each imperfect lesson as a failure and traced failure each to some action or preparation I had failed to &lt;strong&gt;do&lt;/strong&gt;. After two years, I resolved the emotional toll of always being unable to &lt;strong&gt;do&lt;/strong&gt; enough by stopping doing any of it.&lt;/p&gt;
