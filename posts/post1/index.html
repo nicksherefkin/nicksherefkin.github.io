@@ -201,38 +201,41 @@
         
         
         
-        <h3>Comments</h3>
-<div class = 'comments'>
-<span class = 'form_toggle btn'></span>
-<form class = 'form' method = 'POST'>
-  
-  <p class='reply_notice'>
-    <span class='reply_to'></span>
-  </p>
-  
+        
+    <section id="comments">
+        
+        <h3 class="title"><a href="#comments">&#9997; Comments</a></h3>
+        <section class="staticman-comments post-comments">
+            
+            
+            
+    
+            
 
-  <input type = 'hidden' class = 'form_input form_slug' name = 'options[slug]' value = 'b67b44f9b27a030cd48f9581b0e8e4ba'>
-  <input type='hidden' class='form_input reply_thread' name='fields[replyThread]'>
-  <input type='hidden' class='form_input reply_id' name='fields[replyId]'>
-  <input type='hidden' class='form_input reply_name' name='fields[replyName]'><input name = 'options[reCaptcha][siteKey]' type = 'hidden' value = '6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C'>
-    <input name = 'options[reCaptcha][secret]' type = 'hidden' value = ''><label class = 'form_label'></label>
-  <input name = 'fields[name]' type = 'text' placeholder = '' class = 'form_input form_name' required>
-  <label class = 'form_label'></label>
-  <input name = 'fields[email]' type = 'email' placeholder = '' class = 'form_input form_email' required>
-  <label class = 'form_label'></label>
-  <textarea name = 'fields[comment]' placeholder = '' class = 'form_input form_comment' required></textarea><div class = 'g-recaptcha' data-sitekey = '6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C' data-callback='enableSubmitComment'></div>
-    <script type="text/javascript">
-      function enableSubmitComment(){
-        document.getElementById('submitComment').disabled = false;
-      }
-    </script>
-    <script async src = 'https://www.google.com/recaptcha/api.js'></script><div class = 'btn_group'>
-    <input type = 'submit' id = 'submitComment' value = '' class = 'btn form_submit' disabled>
-    <div class='form_reset btn_close icon'></div>
-  </div>
-</form>
+        <form id="comment-form" class="post-new-comment" method="post" action="/nicksherefkin//comments/comments">
+            
+                <p>Be the first to leave a comment! 🎉</p>
+            
+            <h3 class="prompt">Say something</h3>
+            <input type="hidden" name="options[redirect]" value="https://nicksherefkin.github.io/posts/post1/#comment-submitted">
+            <input type="hidden" name="options[slug]" value="post1">
+            <input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
+            <input type="email" name="fields[email]" class="post-comment-field" placeholder="Email address (will not be public) *" required/>
+            <input type="hidden" id="comment-parent" name="fields[reply_to]" value="">
+            <textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>
+            <input type="submit" class="post-comment-field btn btn-primary comment-buttons" value="Submit">
+        </form>
+    </section>
 
-</div> 
+    <div id="comment-submitted" class="dialog">
+        <h3>Thank you!</h3>
+        <p>Your comment has been submitted and will be published once it has been approved. &#128522;</p>
+
+        <p><a href="#" class="btn btn-primary comment-buttons ok">OK</a></p>
+    </div>
+
+    
+</section>
 
     </div>
     
