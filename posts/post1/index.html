@@ -201,97 +201,37 @@
         
         
         
-        
-
-<section class="post-comments">
-
+        <h3>Comments</h3>
+<div class = 'comments'>
+<span class = 'form_toggle btn'>Comment</span>
+<form class = 'form' method = 'POST'>
   
-  
-  
-    
-  
-
+  <p class='reply_notice'>
+    <span class='reply_to'></span>
+  </p>
   
 
-  <section class="comment_form">
-  
-  
-  
-    
-  
-
-  <a id="comment-form"></a>
-  <h3>Say something</h3>
-
-  <form class="js-form form" method="POST" action="">
-    <input type="hidden" name="options[redirect]" value="https://nicksherefkin.github.io/posts/post1/#post-submitted">
-    <input type="hidden" name="options[redirectError]" value="https://nicksherefkin.github.io/posts/post1/#post-error">
-    <input type="hidden" name="options[entryId]" value="post1">
-    <input type="hidden" name="options[slug]" value="https://nicksherefkin.github.io/posts/post1/">
-    <input type="hidden" name="options[origin]" value="https://nicksherefkin.github.io/posts/post1/">
-    <input type="hidden" name="options[parent]" value="post1">
-    <input type="hidden" name="fields[reply_to]" value="">
-    <input type="hidden" name="options[reCaptcha][siteKey]" value="">
-    <input type="hidden" name="options[reCaptcha][secret]" value="">
-
-    <fieldset>
-      <input name="fields[name]" type="text" class="post-comment-field" placeholder="">
-    </fieldset>
-
-    <fieldset>
-      <input name="fields[email]" type="email" class="post-comment-field" placeholder="">
-    </fieldset>
-
-    <fieldset>
-      <textarea name="fields[body]" class="post-comment-field" placeholder="" rows="10"></textarea>
-    </fieldset>
-    
-    <fieldset>
-      <div class="notify-me">
-        <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
-        Send me an email when someone comments on this post.
-      </div>
-    </fieldset>
-
-    <fieldset>
-      <div class="g-recaptcha" data-sitekey="" data-callback="enableBtn"></div>
-
-      <input type="submit" class="post-comment-field btn" value="Submit" id="submit_button">
-      <input type="reset" class="post-comment-field btn btn-info" value="Reset">
-    </fieldset>
-
-  </form>
-
-  <script async src='https://www.google.com/recaptcha/api.js' ></script>
-
-
-  <script type="text/javascript">
-    document.getElementById("submit_button").disabled = true;
-  </script>
-  
-  <script type="text/javascript">
-    function enableBtn(){
-       document.getElementById("submit_button").disabled = false;
+  <input type = 'hidden' class = 'form_input form_slug' name = 'options[slug]' value = 'b67b44f9b27a030cd48f9581b0e8e4ba'>
+  <input type='hidden' class='form_input reply_thread' name='fields[replyThread]'>
+  <input type='hidden' class='form_input reply_id' name='fields[replyId]'>
+  <input type='hidden' class='form_input reply_name' name='fields[replyName]'><input name = 'options[reCaptcha][siteKey]' type = 'hidden' value = '6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C'>
+    <input name = 'options[reCaptcha][secret]' type = 'hidden' value = ''><label class = 'form_label'>Name</label>
+  <input name = 'fields[name]' type = 'text' placeholder = 'Name' class = 'form_input form_name' required>
+  <label class = 'form_label'>Email</label>
+  <input name = 'fields[email]' type = 'email' placeholder = 'Email' class = 'form_input form_email' required>
+  <label class = 'form_label'>Comment</label>
+  <textarea name = 'fields[comment]' placeholder = 'Type in a comment...' class = 'form_input form_comment' required></textarea><div class = 'g-recaptcha' data-sitekey = '6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C' data-callback='enableSubmitComment'></div>
+    <script type="text/javascript">
+      function enableSubmitComment(){
+        document.getElementById('submitComment').disabled = false;
       }
-  </script>
-
-  <div id="post-submitted" class="dialog">
-    <h3>Thank you</h3>
-    <p>Your post has been submitted and will be published once it has been approved.</p>
-    
-    <p><a href="#" class="btn">OK</a></p>
+    </script>
+    <script async src = 'https://www.google.com/recaptcha/api.js'></script><div class = 'btn_group'>
+    <input type = 'submit' id = 'submitComment' value = 'Submit' class = 'btn form_submit' disabled>
+    <div class='form_reset btn_close icon'></div>
   </div>
-
-  <div id="post-error" class="dialog">
-    <h3>OOPS!</h3>
-    <p>Your post has not been submitted.  Please return to the page and try again.  Thank You!</p>
-    <p>If this error persists, please open an issue by <a href=""> clicking here</a>.</p>
-    <p><a href="#" class="btn">OK</a></p>
-  </div> 
-
-</section>
-
-</section>
+</form>
+</div> 
     </div>
     
 
